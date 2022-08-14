@@ -23,7 +23,7 @@ function clock(){
 
   var hours = document.getElementById('hours');
   var minutes = document.getElementById('minutes');
-  var secons = document.getElementById('seconds');
+  var seconds = document.getElementById('seconds');
 
   var h = new Date().getHours();
   var m = new Date().getMinutes();

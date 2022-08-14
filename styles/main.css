@@ -111,10 +111,11 @@ nav li a:hover{
   position:absolute;
   color:mintcream;
   font-size:60px;
-  padding:250px;
+  text-align:center;
+  padding-top:250px;
   background:rgba(49, 37, 37, 0.4);
-  width:100%;
-  height:600px;
+  width:33.3%;
+  height:350px;
 }
 @keyframes animate
 {
@@ -130,8 +131,137 @@ nav li a:hover{
   90%{left:0%;}
   100%{left:0%;}  
 }
+.container-main{
+  display:flex;
+  width:100%;
+}
+.container-img{
+  position:absolute;
+  margin:-14em 0 0 0;
+}
+.container-content{
+ min-width:50%;
+ margin:6em 0 0 3em;
+ text-align:center;
+}
+.container-content p{
+  font-size:50px;
+  font-family:'Courgette', cursive;
+  color: #ffd633;
+  word-spacing:30px;
+}
+.container-content span {
+color:#ff80bf;
+font-family:'Great Vibes', cursive;
+}
+.container-content button{
+  border-radius:20px;
+  border:3px solid black;
+  background: #ffd633 ;  color:black;
+  padding:2em 5em 2em 5em;
+  margin:3em 0 3em 0;
+  font-family:'Rye', cursive;
+}
+.container-content h4{
+  color:#ffccf2;
+  font-size:50px;
+  font-family:'Long Cang', cursive;
+}
+.calender{
+  max-width:50%;
+  padding:4em 0 0 5em;
+  text-align:center;
+}
+.container-cal{
+  position:absolute;
+  padding:5em 0 5em 0;
+  width:10em; 
+  margin:10em 0 0 5.5em;
+  background:#ffccf2;
+  border:2px solid black;
+  -webkit-box-reflect:below 1px linear-gradient(transparent, transparent, #0004);
+}
+.calender h1{
+  font-family:'Arizonia', cursive;
+  margin-left:1em;
+  font-size:50px;  font-weight:300;
+  color:#ffb3d9;
+}
+.calender #month{
+  padding:5px 15px;
+  font-weight:700;
+  font-family:'Rye', cursive;
+  font-size:25px;
+  background:#ff80bf;  color:#800040;
+}
+.container-cal #day{
+  color: 	#ff3333;
+  font-family:'Satisfy', cursive;
+  font-size:20px;
+}
+.container-cal #date{
+  color:#cc0066;
+  font-weight:700;
+  font-size:100px;
+}
+.container-cal #year{
+  padding-top:5px;
+  font-weight:700;
+  font-size:20px;
+  color:#4d001f;
+}
+.main img, .paw1 img, .paw2 img, .foot1 img, .foot2 img,.tail img{
+  position:absolute;
+}
+.main img{
+   margin:2em 0 0 -9.5em;   
+   height: 9em;
+}
+.paw1 img{ margin:10em 0 0 -6.5em;  }
+.paw2 img{ margin:11em 0 0 3.5em;  }
+.foot1 img{
+  height:6em;
+  margin:16em 0 0 -7em;
+}
+.foot2 img{
+  height:6em;
+  margin:16em 0 0 5.2em;
+}
+.tail img{
+  margin:10em 0 0 5.1em;
+  height:10em;
+  z-index:-2;
+}
 
- 
+section .scroll{
+    position:absolute;
+    background-image:url('../images/quality.jpg');
+    height:500px;   width:500px;
+    left:100px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin-top:1000px;
+    clip-path:circle(150px);
+  }
+  .title{
+    position:absolute;
+    margin-top:1200px;    left:250px;
+    z-index:2;
+    font-size:70px;
+    color:#f2f2f2;
+    font-family:'Arizonia', cursive;
+  }
+  .quality{
+    margin-left:650px;
+    font-size:20px;
+    letter-spacing:1.5px;
+    line-height:30px;
+    margin-top:1100px;  margin-right:100px;
+    font-family:cursive;
+    position:absolute;
+    color:#d9d9d9;
+  }
+  
  
  
  
