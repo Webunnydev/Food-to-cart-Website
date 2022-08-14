@@ -167,27 +167,27 @@ font-family:'Great Vibes', cursive;
   font-size:50px;
   font-family:'Long Cang', cursive;
 }
-.calender{
+.calendar{
   max-width:50%;
   padding:4em 0 0 5em;
   text-align:center;
 }
 .container-cal{
   position:absolute;
-  padding:5em 0 5em 0;
+  padding:0 0 1.7em 0;
   width:10em; 
   margin:10em 0 0 5.5em;
   background:#ffccf2;
   border:2px solid black;
   -webkit-box-reflect:below 1px linear-gradient(transparent, transparent, #0004);
 }
-.calender h1{
+.calendar h1{
   font-family:'Arizonia', cursive;
   margin-left:1em;
   font-size:50px;  font-weight:300;
   color:#ffb3d9;
 }
-.calender #month{
+.calendar #month{
   padding:5px 15px;
   font-weight:700;
   font-family:'Rye', cursive;
@@ -202,7 +202,7 @@ font-family:'Great Vibes', cursive;
 .container-cal #date{
   color:#cc0066;
   font-weight:700;
-  font-size:100px;
+  font-size:40px;
 }
 .container-cal #year{
   padding-top:5px;
