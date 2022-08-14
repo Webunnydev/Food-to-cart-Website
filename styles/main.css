@@ -28,7 +28,7 @@ header{
 .row{  display:flex; }
 .row .logo{
   background:white;
-  margin:0.4em 2em 2em 3em; 
+  margin:0.4em 2em 0 3em; 
   height:60px; 
   border-radius:50px;
   border:4px solid deepskyblue;
@@ -42,7 +42,7 @@ header{
 .row img{ margin:-0.5em 0 0 -10em; }
 .nav-links nav{
   float:right;
-  margin:-5em 7em 1em 0;
+  margin:-3.5em 7em 0 0;
 }
 nav li {
  display: inline-block;
@@ -85,6 +85,54 @@ nav li a:hover{
  background-color:white;    
  color:deepskyblue;
 }
+.slider{
+  overflow:hidden;
+  width:100%;
+  height:600px;
+}
+.slider figure div{
+  float:left;
+  width:33.3%;
+}
+.slider figure img{
+  width:100%;
+  height:600px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  float:left;
+}
+.slider figure{
+  position:relative;
+  width:300%;
+  animation:animate 20s infinite;
+}
+.slider h1{
+  position:absolute;
+  color:mintcream;
+  font-size:60px;
+  padding:250px;
+  background:rgba(49, 37, 37, 0.4);
+  width:100%;
+  height:600px;
+}
+@keyframes animate
+{
+  0%{left:0%;}
+  10%{left:0%;}
+  20%{left:-100%;}
+  30%{left:-100%;}
+  40%{left:-200%;}
+  50%{left:-200%;}
+  60%{left:-100%;}
+  70%{left:-100%;}
+  80%{left:0%;}
+  90%{left:0%;}
+  100%{left:0%;}  
+}
+
+ 
+ 
  
  
 
