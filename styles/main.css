@@ -20,7 +20,7 @@ body::-webkit-scrollbar-track{
 }
 header{
   background: #0b0c22;
-  height:5em;
+  height:6em;
   box-shadow:0px 0px 17px 0px;
   transition:all 0.5s ease-in;
 }
@@ -42,12 +42,14 @@ header{
 .row img{ margin:-0.5em 0 0 -10em; }
 .nav-links nav{
   float:right;
-  margin:-3.5em 7em 0 0;
+  width:65%;
+  margin:-3em 2em 1em 0;
+  min-width:25em;
+  font-size:1.5vw;
 }
 nav li {
  display: inline-block;
  font-family:cursive;
- font-size:1.2em;
 }
 nav li a{
  transition:0.7s ease;
@@ -84,6 +86,38 @@ nav li a:hover{
 .login:hover{
  background-color:white;    
  color:deepskyblue;
+}
+.search-icon{
+  height:2.1em;
+  width:240px;
+  background:white;
+  border:4px solid deepskyblue;
+  border-radius:50px;
+  box-shadow:-1px -1px 4px #edeff1,1px 1px 5px #cacfd8;
+}
+.search-icon input{
+  height:75%;
+  width:200px;
+  border:none;
+  border-radius:50px;
+}
+.search-icon .icon{
+  height:100%;
+  width:50px;
+  line-height:2em;
+  text-align:center;
+  cursor:pointer;
+  border-radius:50px;
+}
+.search-icon .icon:hover{
+  background:deepskyblue;
+}
+.search-icon .icon span{
+  color:deepskyblue;
+  font-size:18px;
+}
+.search-icon .icon span:hover{
+  color:white;
 }
 .slider{
   overflow:hidden;
