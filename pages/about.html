@@ -9,32 +9,31 @@
      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     </head>
 <body>
-     <div class="header" id="myHeader">
   <header>
-      <div class="container">
+    <div class="header">
       <div class="row">
-        <a href="#" class="logo"><img  src="images/logo.png"></a>
+        <img class="logo" src="../images/logo.png" alt="logo">
+        <p>Made with love</p> 
+        <img  src="../images/Picture1.png" height="70px;">
+      </div>
+      <div class="nav-links">
           <nav>
-             <ul>
+             <li class="search-icon">
+              <input type="search" placeholder="Search Here...">
+              <label class="icon">
+                <span class="fa fa-search"></span>
+              </label>
+            </li>
         <li><a href="../index.html"> Home</a></li>
         <li><a class="active" href="about.html">About Us</a></li>
         <li><a href="buy.html">Buy</a></li>
         <li><a href="service.html">Services</a></li>
-        <li><a class="smile" href="login.html">Login</a></li>
-             </ul>
+        <li><a class="login" href="login.html">Login</a></li>
           </nav>
-            <div class="food">Made with love</div>
-      <a href="#" class="butt"><img  src="images/Picture1.png"></a>
-  <input type="checkbox" id="check">
-      <div class="box">
-  <input type="text" placeholder="Search Here...">
-      <label for="check"><i class="fa fa-search"></i></label>
-      <a onclick="showToast()"><i class="fa fa-arrow-circle-right"></i></a>
-      <div id="toast">Thankyou for visiting my page.....</br>Have a nice day</div>
-  </div></div>
-  </div>
+      </div>  
+        
+     </div>
   </header>
-</div>
 
 <div class="loader">
   <span></span>
@@ -43,10 +42,69 @@
 </div>
 
 <div class="parallexw">
-  <img class= "parallex" src="images/parallex.jpg"></img>
+  <img class= "parallex" src="../images/parallex.jpg"></img>
   <h1>Made with love</h1>
 </div>
-<div class="overflow"></div>
+
+<section>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section chart">
+         <a href="#" class="footer-image"><img  src="../images/logo.png"></a>
+     <div class="word">Made with love</div>
+         <a href="#" class="butterfly"><img  src="../images/Picture1.png"></a>
+     <div class="chart-one"><h1>CHART</h1>
+      </br>
+         <ul onclick="showToast()">
+             <li>Starter Meals</li>
+             <li>Refreshments</li>
+             <li>Wraps</li>
+             <li>Pizza</li>
+         </ul>
+</div>
+<div class="chart-two">
+  <ul onclick="showToast()">
+    <li>Dessert</li>
+    <li>Grill</li>
+    <li>Drinks</li>
+    <li>Veggies</li>
+ </ul>
+</div></div>
+       <div class="footer-section contact">
+            <h2>Stay connected</h2></br>
+       <form action="main.html" method="get">
+         <input type="email" name="email" class="input-text" placeholder="email address....">
+         <textarea name="Essence" class="input-text" placeholder="Essence...."></textarea>
+         <a onclick="showToast()">Send</a>
+       </form>
+<div class="social-media">
+      <ul onclick="showToast()" >
+           <li><i class="fa fa-facebook"></i></li>
+           <li><i class="fa fa-instagram"></i></li>
+           <li><i class="fa fa-twitter"></i></li>
+           <li><i class="fa fa-linkedin"></i></li>
+         </ul>
+</div>
+       </div>
+      <div class="footer-section navigate" style="text-align:center";>
+        <h1>Navigate</h1>
+         <ul style="font-family: 'Cinzel', serif;">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="pages/about.html">About us</a></li>
+             <li><a href="#">Add to cart</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#" onclick="showToast()">Offers</a></li>
+             <li><a href="#" onclick="showToast()">Sunday Deals</a></li>
+             <li><a href="#" onclick="showToast()">Chat with us</a></li>
+          </ul>
+      </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; Designed by <a href="https://github.com/Webunnydev">Webunnydev</a> Food to Cart | since 2022.
+      </div>
+</div>
+
+</section>
 
 <script src="script/java.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
