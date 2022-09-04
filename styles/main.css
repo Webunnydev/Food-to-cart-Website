@@ -95,29 +95,27 @@ nav li a:hover{
   border-radius:50px;
   box-shadow:-1px -1px 4px #edeff1,1px 1px 5px #cacfd8;
 }
+textarea:focus, input:focus{
+  outline: none;
+}
 .search-icon input{
   height:75%;
   width:200px;
   border:none;
+  font-size:0.8em;
   border-radius:50px;
+  margin-left:0.5em;
 }
 .search-icon .icon{
   height:100%;
-  width:50px;
   line-height:2em;
   text-align:center;
   cursor:pointer;
   border-radius:50px;
 }
-.search-icon .icon:hover{
-  background:deepskyblue;
-}
 .search-icon .icon span{
   color:deepskyblue;
   font-size:18px;
-}
-.search-icon .icon span:hover{
-  color:white;
 }
 .slider{
   overflow:hidden;
