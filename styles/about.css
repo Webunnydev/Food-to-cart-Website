@@ -12,20 +12,47 @@ div #particles-js{
   position:absolute;
   z-index:3;
 }
- 
-section .about-container{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  margin:5em;
+.about-us{
+  background-image: url("../images/aboutus.png");
+  background-repeat: no-repeat;
+  font-family: cursive;
+  width:100%;
+  background-size: cover;
+}
+.about-overlay{ background:rgba(0, 0, 0, 0.397); }
+.about-title{
+ color:white;
+ padding:20em 2em 5em 0;
+}
+.about-title h2{
+  color:deepskyblue;
+  border-bottom: 0.8px solid white;
+  font-size:2vw;
+  text-align:center;
+  width:20%;
+  padding:0.5em;
+  margin:0 0 0 17em;
 }
 .about-content{
-  width:50%;
-  color:whitesmoke;
-}
-.about-img img{
-  width:80%;
-  float:right;
-  height:100px;
   
+  display:flex;
+  padding:5em 10em 0 0;
 }
+.about-sub{
+  text-align:center;
+  border-right:1px solid white;
+  
+  padding:2em;
+}
+.about-sub p{
+  font-size:1.2vw;
+  color:tomato;
+  margin-top:2em;
+}
+.about-sub h4{
+  font-size:1.2vw;
+}
+ 
+ 
+ 
+ 
