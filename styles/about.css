@@ -34,14 +34,12 @@ div #particles-js{
   margin:0 0 0 17em;
 }
 .about-content{
-  
   display:flex;
   padding:5em 10em 0 0;
 }
 .about-sub{
   text-align:center;
   border-right:1px solid white;
-  
   padding:2em;
 }
 .about-sub p{
@@ -49,10 +47,41 @@ div #particles-js{
   color:tomato;
   margin-top:2em;
 }
-.about-sub h4{
-  font-size:1.2vw;
+.about-sub h4{ font-size:1.2vw; }
+.container{
+  display:flex;
+  margin:10em 5em -10em 5em ;
+  max-width:100%;
 }
- 
- 
+.img-container{ 
+  border:5px solid tomato; 
+  max-width:60%;
+}
+.img-container img{
+  width:100%;
+  height:100%;
+}
+.content-container{
+max-width:40%;
+padding:5em 5em 5em 5em;
+color:white;
+font-family:cursive;
+}
+.content-container h2{ color:tomato; }
+.content-container p{ padding:2em 0 2em 0; }
+.content-container button{
+  color:white;
+  padding:1.5em 2.5em 1.5em 2.5em;
+  background-color:tomato;
+  border:2px solid white;
+  border-radius: 5%;
+  font-family: cursive;
+  font-size:12px;
+  cursor:pointer;
+}
+.content-container button:hover{
+  background-color: deepskyblue;
+  transition: 1.2s;
+}
  
  
