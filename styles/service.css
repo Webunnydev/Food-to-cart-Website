@@ -1,0 +1,23 @@
+@import "../styles/head-foot.css";
+
+.active:before{
+    width:100px; 
+    margin:1.5em 0 0 0;
+ }
+.parallexw img{  
+    height:700px;    
+    width:100%;
+    object-fit:cover; 
+     z-index:-1;
+    }
+    .parallexw {   
+      position:relative; 
+      height:50em;
+  }
+    .parallexw h1{
+      color:white;  
+      position:absolute;
+      margin:-370px 0 0 8.5em;   
+      font-size:5vw;         
+      font-family:'Srisakdi', cursive;
+    }
