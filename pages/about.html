@@ -8,7 +8,11 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     </head>
-<body>
+<body onload="myFunction()">
+
+  <div id="loader">
+
+  </div>
   <header>
     <div class="header">
       <div class="row">
@@ -90,6 +94,7 @@
       </p>
       <button>Let's Talk</button>
     </div>
+    <iframe src="https://www.youtube.com/embed/n4VXcYWvETU" title="YouTube video player" style="display: none;"></iframe>
   </div>
 </section>
 
@@ -154,12 +159,11 @@
 </section>
 
 <script src="script/java.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-   setTimeout(function(){
-     $('.loader').fadeToggle();
-   }, 7000);
+  var preloader = document.getElementById('loader');
+  function myFunction(){
+    preloader.style.display = 'none';
+  }
 </script>
 
 </body>
