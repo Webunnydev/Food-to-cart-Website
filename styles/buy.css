@@ -1,11 +1,11 @@
 @import "../styles/head-foot.css";
-/*#loader{
+#loader{
   position:fixed;
   width:100%;
   height:100vh;
   background: white url('../images/preloader.gif') no-repeat center;
   z-index:99999;
-}*/
+}
 .active:before{
    width:50px; 
    margin:1.5em 0 0 -0.3em;

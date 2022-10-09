@@ -11,9 +11,9 @@
 
 <body onload="myFunction()">
 
-      <div id="loader">
-        <iframe src="https://www.youtube.com/watch?v=5RluSnRPRbI" style="display: none;"></iframe>
-      </div>
+  <div id="loader">
+    <iframe src="https://www.youtube.com/watch?v=5RluSnRPRbI" style="display: none;"></iframe>
+  </div>
 
   <header>
     <div class="header">
@@ -231,9 +231,9 @@
   <div class="footer">
     <div class="footer-content">
       <div class="footer-section chart">
-         <a href="#" class="footer-image"><img  src="images/logo.png"></a>
+         <a href="#" class="footer-image"><img  src="../images/logo.png"></a>
      <div class="word">Made with love</div>
-         <a href="#" class="butterfly"><img  src="images/Picture1.png"></a>
+         <a href="#" class="butterfly"><img  src="../images/Picture1.png"></a>
      <div class="chart-one"><h1>CHART</h1>
       </br>
          <ul onclick="showToast()">
@@ -270,9 +270,9 @@
       <div class="footer-section navigate" style="text-align:center";>
         <h1>Navigate</h1>
          <ul style="font-family: 'Cinzel', serif;">
-             <li><a href="index.html">Home</a></li>
-             <li><a href="pages/about.html">About us</a></li>
-             <li><a href="#">Add to cart</a></li>
+             <li><a href="../index.html">Home</a></li>
+             <li><a href="../pages/about.html">About us</a></li>
+             <li><a href="../pages/buy.html">Add to cart</a></li>
              <li><a href="#">Services</a></li>
              <li><a href="#" onclick="showToast()">Offers</a></li>
              <li><a href="#" onclick="showToast()">Sunday Deals</a></li>
@@ -287,7 +287,6 @@
 
 </section>
 
-<script src="script/java.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
   var swiper = new Swiper('.swiper-container', {
@@ -300,6 +299,12 @@
       disableOnInteraction: false,
   },
   });
+</script>
+<script>
+  var preloader = document.getElementById('loader');
+  function myFunction(){
+    preloader.style.display = 'none';
+  }
 </script>
   </body>
 </html>
