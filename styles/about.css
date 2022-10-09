@@ -15,11 +15,6 @@
   width:60px;
   background-color:white;
 }
-div #particles-js{
-  width:100%;         height:3000px;
-  position:absolute;
-  z-index:3;
-}
 .about-us{
   background-image: url("../images/aboutus.png");
   background-repeat: no-repeat;
