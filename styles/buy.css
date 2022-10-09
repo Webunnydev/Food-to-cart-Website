@@ -94,35 +94,40 @@ section .cuisines{
   transition:0.3s;
 }
 .card:hover .content p{   opacity:1;  }
-.cuisines:hover .card{   transform: scale(0.9);
+.cuisines:hover .card{   
+  transform: scale(0.9);
    opacity:0.5;
 }
-.cuisines .card:hover {transform: scale(1.1);
+.cuisines .card:hover {
+  transform: scale(1.1);
   opacity:1;
 }
-.head-one h1{
-  margin-top:450px;   margin-left:550px;
-  font-size:50px;
-  color:white;
+.products{
+  display:flex;
+  width:100%;
 }
-.head-one img{
-  margin-top:-100px;     margin-left:1100px;
-  border-radius:50%;
+.static{ 
+  margin:5em 0 0 6em;
+  max-width:10%;
 }
-.head-one p{
+.static img{ border-radius:50%; }
+.static p{
  color:#e6005c;
  font-family:cursive;
- margin-left:1130px;
- font-size:30px;     font-weight:600;
+ font-size:30px;     
+ font-weight:600;
 }
 .swiper-container {
-  width: 1500px;    height:400px;
-  margin-top:50px;
-  position:absolute;
+  max-width:70%; 
+  
+  height:350px;   
+  overflow:hidden;
+  margin:50px 0 0 0; 
 }
 div .swiper-slide {
   background-position:center;
-  height:200px;   width:200px;
+  height:200px;   
+  width:200px;
   background:transparent;
   position:relative;
   -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, #0006);
@@ -134,6 +139,7 @@ div .swiper-slide {
   margin-top:250px;
   text-align:center;
   font-family:cursive;
+  
 }
 .col-4{
   flex-basis:25%;
