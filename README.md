@@ -1,7 +1,7 @@
 # Food-to-cart-website
 A responsive dark theme website using HTML5, CSS3, and JS - A well-known scripting language for webpage creation.
 
-Live Site URL: https://github.com/Webunnydev/Food-to-cart-webpage.git
+Live Site URL: https://webunnydev.github.io/Food-to-cart-Website/
 # Table of contents
 [Overview](#view)
  
