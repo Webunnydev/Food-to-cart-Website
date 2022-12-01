@@ -1,23 +1,64 @@
 @import "../styles/head-foot.css";
 
 .active:before{
-    width:100px; 
-    margin:1.5em 0 0 0;
+    width:60px; 
+    margin:1.5em 0 0 0.2em;
  }
+.active:hover:before{
+ width:80px;
+ background-color:white;
+}
 .parallexw img{  
     height:700px;    
     width:100%;
     object-fit:cover; 
      z-index:-1;
     }
-    .parallexw {   
+.parallexw {   
       position:relative; 
       height:50em;
   }
-    .parallexw h1{
+.parallexw h1{
       color:white;  
       position:absolute;
       margin:-370px 0 0 8.5em;   
       font-size:5vw;         
       font-family:'Srisakdi', cursive;
-    }
+}
+.container-delivery{
+  width:100%;
+  padding:8em 0 0 0;
+}
+.container-heading{
+  background:#ff3333;   color:white;
+  float:right;
+  position:relative;
+  padding:0 0 0 2em;
+  margin:0 0 0 0;
+  font-family:'Rye', cursive;
+  width:40%;
+  font-size:30px;
+  border:2px solid white;
+}
+.container-row{
+  display:flex;
+  width:100%;
+}
+.container-delivery h1{
+  max-width:50%;
+  margin: 1em 0 0 5em;  
+  color:#ff9999;
+  font-family:cursive;    font-size:20px;
+  letter-spacing:1.5px;
+  line-height:30px;
+}
+.container-row img{
+  margin:7em 0 0 0em;
+  position:relative;
+}
+.container-line{
+  background:#ff3333;
+  height:10px; width:100%;
+  margin:-6em 0 -15em 0;
+}
+  
